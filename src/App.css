@@ -1,0 +1,134 @@
+.App {
+  background-color: #F5F5F5;
+  height:100%;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #F5F5F5;
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+  justify-content: center;
+}
+
+
+.slider {
+  
+  background-color: #F5F5F5;
+  flex: 4;
+  display: flex;
+ 
+}
+
+.content {
+  
+  background-color:  #F5F5F5;
+  flex: 6;
+  
+  display: flex;
+  flex-wrap: wrap;
+ margin-left: 58px;
+ margin-top: 100px;
+}
+
+.logo{
+  
+  display: flex;
+  margin-left: 00px;
+  margin-top: 59px;
+  margin-bottom: 36px;
+  
+  
+}
+.search{
+  
+  display: flex;
+  float: right;
+  margin-top: 70px;
+  margin-bottom: 46px;
+  padding-top: 0px;
+  
+  padding-left: 180px;
+}
+.boxCards{
+  display: flex;
+  flex-wrap: wrap;
+  
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+ 
+  
+}
+.card{
+
+background-color:  whites;
+width: 90%;
+border-radius: 20px;
+padding: 15px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.foto{
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+}
+.carta{
+flex: 1;
+background-color:  white;
+width: 20%;
+border-radius: 20px 20px 0px 0px;
+margin-top: 10px;
+margin-right: 60px;
+margin-bottom: 80px;
+}
+nav {
+  flex: auto;
+  justify-content: end;
+  margin-top: 76px;
+  margin-bottom: 46px;
+}
+nav ul{
+
+  display: flex;
+  
+  }
+nav li{
+left: 675px;
+margin-left: 10px;
+margin-right: 50px;
+list-style-type: none;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0px;
+color: #333333;
+text-align: left;
+
+}
+nav a:link{
+text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@media screen and (max-width: 1070px) {
+  .search{
+    display: flex;
+   float: right;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    padding-top: 10px;
+    margin-right: 30px;
+    padding-left: 50px;
+  }
+
+  .logo{
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+}
